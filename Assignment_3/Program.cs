@@ -1,4 +1,6 @@
-﻿namespace Assignment_3
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Assignment_3
 {
     internal class Program
     {
@@ -126,6 +128,26 @@
             //    }
             //    Console.WriteLine(book);
             //}
+
+            #endregion
+
+
+            #region Question21
+            ////Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,
+            ////use return to exit the method early instead of printing anything.
+
+         
+            //static void PrintFirstBook(string[] books)
+            //{
+            //    if (books.Length == 0)
+            //    {
+            //        return;
+            //    }
+            //    Console.WriteLine(books[0]);
+            //}
+
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //PrintFirstBook(books);
 
             #endregion
         }
