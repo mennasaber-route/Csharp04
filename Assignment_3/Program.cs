@@ -7,6 +7,7 @@ namespace Assignment_3
         static void Main(string[] args)
         {
 
+            //    last part of  assignment 3
             #region Question13
             ////Given string title = "Refactoring";, write a switch statement that prints "Great choice!" if the title is "Clean Code",
             ////"Nice pick!" if it's "Refactoring", and "Never heard of it" for anything else.
@@ -136,7 +137,7 @@ namespace Assignment_3
             ////Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty,
             ////use return to exit the method early instead of printing anything.
 
-         
+
             //static void PrintFirstBook(string[] books)
             //{
             //    if (books.Length == 0)
@@ -148,6 +149,22 @@ namespace Assignment_3
 
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //PrintFirstBook(books);
+
+            #endregion
+
+
+            //   **********   Assignment 4   String Questions:
+
+
+            #region Question1
+            ////1-Declare string title = "clean code";. Call title.ToUpper() and store it in a new variable upperTitle.
+            ////Print both title and upperTitle to show that title did not change.
+
+
+            //string title = "clean code";
+            //string upperTitle = title.ToUpper();
+            //Console.WriteLine(title);
+            //Console.WriteLine(upperTitle);
 
             #endregion
         }
