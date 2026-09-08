@@ -192,6 +192,18 @@ namespace Assignment_3
             //Console.WriteLine(sb);
 
             #endregion
+
+
+            #region Question4
+            ////4-Using the StringBuilder from the question above,
+            ////use Replace() to change "Book List" into "Library". Print the result.
+
+            //StringBuilder sb = new StringBuilder();
+            //sb.Append("Book List");
+            //sb.Replace("Book List", "Library");
+            //Console.WriteLine(sb);
+
+            #endregion
         }
 
     }
