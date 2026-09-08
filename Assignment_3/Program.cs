@@ -214,7 +214,28 @@ namespace Assignment_3
             //int pages = 464;
             //string sentence = "Book: " + title + ", Pages: " + pages;
             //Console.WriteLine(sentence);
-            
+
+            #endregion
+
+
+            #region Question6
+            ////6-Build the same sentence as above, but using string interpolation ($"...").
+
+
+            //string title = "Clean Code";
+            //int pages = 464;
+            //Console.WriteLine($"Book: {title}, Pages: {pages}");
+
+            #endregion
+
+
+            #region Question7
+            ////7-Build the same sentence again, but using string.Format().
+
+            //string title = "Clean Code";
+            //int pages = 464;
+            //Console.WriteLine(string.Format("Book: {0}, Pages: {1}", title, pages));
+
             #endregion
         }
 
