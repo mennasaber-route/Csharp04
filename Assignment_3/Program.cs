@@ -167,6 +167,18 @@ namespace Assignment_3
             //Console.WriteLine(upperTitle);
 
             #endregion
+
+
+            #region Question2
+            ////2-Declare two separate string variables, both set to the literal "Clean Code". 
+            ////Use ReferenceEquals() to check if they point to the same object in memory.
+
+
+            //string str1 = "Clean Code";
+            //string str2 = "Clean Code";
+            //Console.WriteLine(object.ReferenceEquals(str1, str2));
+
+            #endregion
         }
 
     }
